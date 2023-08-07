@@ -1,0 +1,34 @@
+[
+    {
+       "id":1,
+       "title":"Front-end",
+       "color":"red",
+       "item":[
+          "HTML ",
+          "CSS ",
+          "Javascript ",
+          "React "
+       ]
+    },
+    {
+       "id":2,
+       "title":"Back-end",
+       "color":"green",
+       "item":[
+          "Node.js ",
+          "JavaScript ",
+          "MongoDB ",
+          "Express "
+       ]
+    },
+    {
+       "id":3,
+       "title":"Design",
+       "color":"yellow",
+       "item":[
+        "Figma ",
+        "illustrator ",
+        "InDesign "
+     ]
+    }
+ ]

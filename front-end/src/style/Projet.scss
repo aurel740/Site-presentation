@@ -1,0 +1,62 @@
+
+
+
+.imgProjet {
+    background-image: url(../assets/fond-projet.jpg);
+}
+
+.cardProjet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.formProjet {
+    margin: auto;
+}
+.formProjet button {
+    margin: auto;
+}
+
+.divProjet {
+    background-color: #F2F2F2;
+    width: 70%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+}
+
+.divProjet img {
+    height: 100%;
+    border-radius: 20px;
+    max-width: 45%;
+    background-size: cover;
+    margin: auto;
+}
+.listDescription {
+    width: 45%;
+    padding-left: 50px;
+}
+.mot-clef {
+    color: black;
+    list-style-type:disc;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+}
+
+.list p {
+    font-size: 2.5em;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+

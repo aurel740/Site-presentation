@@ -1,0 +1,74 @@
+.modale-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  h6 {
+    font-size: 2em;
+    margin: 15px;
+  }
+
+  .modale {
+    position: relative;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 3;
+    text-align: center;
+    width: 70%;
+  }
+
+  .modale p {
+    background-color: rgb(214, 214, 214);
+    margin: 20px;
+    padding: 20px;
+  }
+  .formPortfolio {
+    width: auto;
+  }
+  .en-tete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .image {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    justify-content: center;
+
+  }
+  .image img{
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.113) 8px 8px 5px;
+  }
+  .imageEnPlus {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 20px;
+    justify-content: space-between;
+  }
+  
+  .imageEnPlus img {
+height: 48%;
+  }
+
+.fa-arrow-right {
+  color: white;
+  font-size: 50px;
+  padding-left: 15px;
+}
+
+.lienGitHub {
+  color: rgb(89, 173, 179);
+}

@@ -1,0 +1,39 @@
+#Accueil {
+    background-image: url(../assets/workspace.jpg);
+    background-size: cover;
+    color: white;
+    height: 102vh;
+    width: 100%;
+    max-height: 1000px;
+    margin-top: -50px;
+}
+.accueilDiv {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2 {
+padding-top: 200px;
+font-size: 55px;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+#Accueil p {
+    max-width: 850px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#Accueil i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 30px;
+}

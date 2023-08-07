@@ -1,0 +1,21 @@
+.logIn {
+    margin: 150px 100px;
+    background-color: bisque;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.formLogIn input{
+    height: 50px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+#erreur {
+    color: red;
+}
