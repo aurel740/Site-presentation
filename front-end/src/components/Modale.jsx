@@ -16,14 +16,16 @@ const Modale = ({ objet, onClose }) => {
         </div>
         
         <div className='image'>
-          <img src={objet.images[1].image} alt="image1" />
+          <img src={objet.images[1].image} alt="image1 du projet" className="imagePrincipale"/>
           <div className='imageEnPlus'>          
-          <img src={objet.images[2].image} alt="image2" />
-          <img src={objet.images[3].image} alt="image2" />
+          <img src={objet.images[2].image} alt="image2 du projet" />
+          <img src={objet.images[3].image} alt="image3 du projet" />
           </div>
         </div>
-        
+        <div className='textDescriptionModale'>  
         <p>{objet.description} <br></br> {objet.lien && <a className='lienGitHub' href={objet.lien}>Lien vers le github</a>}</p>
+        </div>
+      
         
         
       </div>

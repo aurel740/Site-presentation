@@ -7,7 +7,6 @@
     background-image: url(../assets/fond-montagne.jpg);
     background-position: center;
     background-size: cover;
- 
 }
 .flex {
        display: flex;
@@ -91,6 +90,14 @@ label {
     align-items: center;
 }
 
+.messageEnvoie {
+    color: #6bffff;
+    font-size: 1.5vw;
+    p {
+        margin: 0px;
+    }
+}
+
 @media screen and (min-width:1029px){
     .formulaire {
         flex-direction: row;
@@ -120,7 +127,9 @@ label {
     .formulaire {
         flex-direction: column;
         align-items: center;
-
+        input::placeholder ,textarea::placeholder {
+            font-size: 22px;
+        }
     }
     .titreContact {
         margin: 50px auto 15px auto;

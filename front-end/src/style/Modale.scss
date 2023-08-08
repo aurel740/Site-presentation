@@ -13,54 +13,40 @@
   
   h6 {
     font-size: 2em;
-    margin: 15px;
+    margin: 20px;
   }
 
   .modale {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: black;
     background-color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     z-index: 3;
     text-align: center;
-    width: 70%;
+    max-width: 1100px;
+    width: 75%;
+    max-height: 80%;
+      p {
+        background-color: rgb(214, 214, 214);
+        margin: 5px 10px;
+        padding: 15px 25px;
+      }
   }
 
-  .modale p {
-    background-color: rgb(214, 214, 214);
-    margin: 20px;
-    padding: 20px;
-  }
-  .formPortfolio {
-    width: auto;
-  }
+
   .en-tete {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .image {
-    display: flex;
-    flex-direction: row;
-    height: 350px;
-    justify-content: center;
 
-  }
-  .image img{
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.113) 8px 8px 5px;
-  }
   .imageEnPlus {
     display: flex;
-    flex-direction: column;
-    height: 100%;
-    padding-left: 20px;
     justify-content: space-between;
-  }
-  
-  .imageEnPlus img {
-height: 48%;
   }
 
 .fa-arrow-right {
@@ -69,6 +55,61 @@ height: 48%;
   padding-left: 15px;
 }
 
+.image {
+  display: flex;
+}
+
 .lienGitHub {
   color: rgb(89, 173, 179);
+}
+
+@media screen and (min-width:1029px) {
+  .imageEnPlus {
+    flex-direction: column;
+    margin-left: 20px;
+    img {
+      height: calc(350px / 2 - 40px);
+    }
+  }
+  .imagePrincipale {
+    max-width: 430px;
+  }
+  .image {
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 290px;
+      img {
+        box-shadow: rgba(0, 0, 0, 0.113) 8px 8px 5px;
+      }
+  }
+}
+
+@media screen and (max-width:1029px) {
+  .imageEnPlus {
+    flex-direction: row;
+    margin: auto;
+    max-height: 200px;
+    width: 70%;
+      img {
+        width: 45%;
+        margin: 10px 0px;
+      }
+  }
+  .imagePrincipale {
+    max-width: 70%;
+    max-height: 195px;
+    margin: auto;
+  }
+  .image {
+    flex-direction: column;
+    margin: auto;
+    max-height: 400px;
+      img {
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.113) 8px 8px 5px;
+      }
+  }
 }

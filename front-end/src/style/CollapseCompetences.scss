@@ -1,5 +1,6 @@
-#Compentence{
-    margin-bottom: 100px;
+#Competence{
+    margin: 30px auto;
+    padding: 30px;
 }
 
 .titreEnNoir {
@@ -9,20 +10,17 @@
 }
 
 .collapse__content {
-    display: flex;
-    flex-direction: column;
-}
-
-.collapse__content {
 padding-left: 0px;
 padding: 10px 0px;
-}
-.collapse__content li {
-    color: black;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 600;
-    padding: 10px 0px;
+display: flex;
+flex-direction: column;
+    li {
+        color: black;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: 600;
+        padding: 10px 0px;
+    }
 }
 
 .collapse__title {

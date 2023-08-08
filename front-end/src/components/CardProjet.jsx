@@ -13,7 +13,7 @@ const {projets, isLoading} = useProjet();
                 key={object.id}
                 title='projet'
                 className='divProjet'
-                style={{ flexDirection: index % 2 === 0 ? 'row-reverse' : 'row' }}
+                style={{ flexDirection: window.innerWidth >= 1029 && index % 2 === 0 ? 'row-reverse' : 'row'}} // inverser le sens entre l'image et le texte, une fois sur deux.
                 >
                     <div className='listDescription'>
                         <h5>{object.title}</h5>

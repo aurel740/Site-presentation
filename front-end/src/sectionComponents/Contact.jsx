@@ -4,11 +4,7 @@ import { NavLink } from 'react-router-dom';
 import LienNav from '../components/LienNav';
 
 const Contact = () => {
-  // const [Nom, setNom] = useState('');
-  // const [Prenom, setPrenom] = useState('');
-  // const [Societe,setSociete] = useState('');
-  // const [Email,setEmail] = useState('');
-  // const [Message,setMessage] = useState('');
+  const [messageEnvoi,setMessageEnvoi] = useState("")
 
     console.log(sessionStorage);
 
@@ -43,6 +39,7 @@ const Contact = () => {
           if (response.ok) {
             // Gérer la réponse réussie du serveur
             console.log("Formulaire soumis avec succès");
+            setMessageEnvoi("Votre message est bien envoyé")
           } else {
             // Gérer les erreurs du serveur
             console.error("Erreur lors de la soumission du formulaire");
@@ -64,7 +61,10 @@ const Contact = () => {
         <section id='Contact'>
             <div className='fondNoir'>
               <div className='fondContact flex'><h3 className='titreContact'>Contactez-moi</h3>
-                <form onSubmit={handleSubmitContact}>
+                <div className='messageEnvoie'>
+                  <p>{messageEnvoi}</p>
+                  </div>
+                  <form onSubmit={handleSubmitContact}>
                     <div className='formulaire'>                    
                         <div className='infoMessage'>
                         <label htmlFor="Nom">Nom</label>
@@ -82,8 +82,11 @@ const Contact = () => {
                     </div>
                     </div>
                     <input type="submit" value="Validez" className='validez'></input>
-                </form>
+                    
+                </form>                  
+
                 <div className='footer'>
+
                 <div>
                     <NavLink to="/connection">
                     <i className="fa-solid fa-circle"></i>

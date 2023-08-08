@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import FormPortfolio from './FormPortfolio';
-// import FormProjet from './FormProjet';
 import "../style/ModaleForm.scss"
 
 const ModaleForm = ({ setShowFormModale }) => {
@@ -22,7 +21,6 @@ const ModaleForm = ({ setShowFormModale }) => {
     return (
         <div className="modale-container2">
             <div className="modaleForm">
-                    {/* <FormProjet/> */}
                     <FormPortfolio/> 
             </div>
         </div>
