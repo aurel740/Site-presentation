@@ -11,7 +11,7 @@ const FormProjet = () => {
       
     const handleImageChange = (e) => {
         const selectedFiles = Array.from(e.target.files);
-        const selectedImage = selectedFiles[0]; // Limitez le nombre d'images à 4
+        const selectedImage = selectedFiles[0]; 
         setImagesProjet(selectedImage);
       };
 
