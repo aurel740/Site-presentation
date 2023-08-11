@@ -51,7 +51,7 @@ const LoginForm = () => {
         if (user) {
           // Effectuez ici les actions souhaitées après la connexion réussie
           console.log('Connexion réussie');
-          window.location.href = '../';
+          window.location.href = '../developpeur-web-junior-orleans/';
         }
       })
       .catch(error => {
