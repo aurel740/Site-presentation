@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developpeur-web-junior-orleans/static/css/main.20965f24.css",
-    "main.js": "/developpeur-web-junior-orleans/static/js/main.8dacd995.js",
+    "main.js": "/developpeur-web-junior-orleans/static/js/main.9c0a6a67.js",
     "static/media/fond-projet.jpg": "/developpeur-web-junior-orleans/static/media/fond-projet.3f30eb814f6a8b1da6e9.jpg",
     "static/media/fond-portfolio.jpg": "/developpeur-web-junior-orleans/static/media/fond-portfolio.1a08ab1b788c578134ba.jpg",
     "static/media/fond-montagne.jpg": "/developpeur-web-junior-orleans/static/media/fond-montagne.05736e4ec8ce3bdb6f5b.jpg",
@@ -9,10 +9,10 @@
     "static/media/LogoDiscord.png": "/developpeur-web-junior-orleans/static/media/LogoDiscord.a88dc754b2b926d0ccb5.png",
     "index.html": "/developpeur-web-junior-orleans/index.html",
     "main.20965f24.css.map": "/developpeur-web-junior-orleans/static/css/main.20965f24.css.map",
-    "main.8dacd995.js.map": "/developpeur-web-junior-orleans/static/js/main.8dacd995.js.map"
+    "main.9c0a6a67.js.map": "/developpeur-web-junior-orleans/static/js/main.9c0a6a67.js.map"
   },
   "entrypoints": [
     "static/css/main.20965f24.css",
-    "static/js/main.8dacd995.js"
+    "static/js/main.9c0a6a67.js"
   ]
 }
