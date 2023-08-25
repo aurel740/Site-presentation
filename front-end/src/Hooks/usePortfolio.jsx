@@ -5,7 +5,7 @@ const usePortfolio = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/portfolio')
+    fetch('http://boucroux.freeboxos.fr:4000/api/portfolio')
       .then(response => response.json())
       .then(data => {
         setPortfolios(data);

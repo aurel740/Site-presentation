@@ -38,7 +38,7 @@ const CardPortfolio = () => {
       {isLoading && <span>Loading...</span>}
       {portfolios.map((objet) => (
         <div
-          key={objet.id}
+          key={objet._id.$oid}
           title="portfolio"
           alt={objet.title}
           onClick={() => handlePortfolioClick(objet)}

@@ -5,7 +5,7 @@ const useProjet = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/projet')
+    fetch('http://boucroux.freeboxos.fr:4000/api/projet')
       .then(response => response.json())
       .then(data => {
         setProjets(data);
